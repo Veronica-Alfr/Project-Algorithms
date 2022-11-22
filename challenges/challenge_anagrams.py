@@ -1,6 +1,6 @@
 def merge_sort(array):
     if len(array) <= 1:
-        return array
+        return "".join(array)
 
     mid = len(array) // 2
     left, right = merge_sort(array[:mid]), merge_sort(array[mid:])
